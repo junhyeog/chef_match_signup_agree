@@ -4290,44 +4290,176 @@ var Index = function Index() {
     __self: this
   }, "\uD68C\uC6D0\uAC00\uC785")), __jsx(Professional_chef, {
     src: "/static/professional_chef.png",
-    srcSet: "/static/professional_chef@2x.png 2x,\r /static/professional_chef@3x.png 3x",
+    srcSet: "/static/professional_chef@2x.png 2x,/static/professional_chef@3x.png 3x",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 11
     },
     __self: this
   }), __jsx(ContentTitle, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 13
     },
     __self: this
   }, "My Private Chef"), __jsx(ContentSubtitle, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 14
     },
     __self: this
-  }, "\uC170\uD504\uC758 \uC694\uB9AC\uAC00 \uC6B0\uB9AC \uC9D1\uC73C\uB85C!"));
+  }, "\uC170\uD504\uC758 \uC694\uB9AC\uAC00 \uC6B0\uB9AC \uC9D1\uC73C\uB85C!"), __jsx(CheckBoxContainer, {
+    style: {
+      top: "54px"
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }, __jsx(CheckBox, {
+    type: "checkbox",
+    id: "term1",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }), __jsx(Label, {
+    htmlFor: "term1",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }, "\uB9C8\uD504\uC170 \uC774\uC6A9\uC57D\uAD00 \uB3D9\uC758")), __jsx(CheckBoxContainer, {
+    style: {
+      top: "99px"
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
+  }, __jsx(CheckBox, {
+    type: "checkbox",
+    id: "term1",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: this
+  }), __jsx(Label, {
+    htmlFor: "term1",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }, "\uC804\uC790\uAE08\uC735\uAC70\uB798 \uC774\uC6A9\uC57D\uAD00 \uB3D9\uC758")), __jsx(CheckBoxContainer, {
+    style: {
+      top: "139px"
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }, __jsx(CheckBox, {
+    type: "checkbox",
+    id: "term1",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }), __jsx(Label, {
+    htmlFor: "term1",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }, "\uAC1C\uC778\uC815\uBCF4 \uC218\uC9D1\uC774\uC6A9 \uB3D9\uC758")), __jsx(CheckBoxContainer, {
+    style: {
+      top: "179px"
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  }, __jsx(CheckBox, {
+    type: "checkbox",
+    id: "term1",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }), __jsx(Label, {
+    htmlFor: "term1",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }, "\uB098\uB294 \uB9CC 14\uC138 \uC774\uC0C1\uC785\uB2C8\uB2E4.")), __jsx(CheckBoxContainer, {
+    style: {
+      top: "219px"
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    },
+    __self: this
+  }, __jsx(CheckBox, {
+    type: "checkbox",
+    id: "term1",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
+    },
+    __self: this
+  }), __jsx(Label, {
+    htmlFor: "term1",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  }, "(\uC120\uD0DD) \uB9C8\uCF00\uD305 \uC815\uBCF4 \uC218\uC2E0\uB3D9\uC758")), __jsx(NavBar, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
+    },
+    __self: this
+  }, __jsx(NavSlogan, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38
+    },
+    __self: this
+  }, "\uB2E4\uC74C\uC73C\uB85C")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);
 var BackGround = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
   displayName: "pages__BackGround",
   componentId: "lo9ks6-0"
-})(["width:100vw;height:100vh;background-color:#ffffff;display:block;"]);
+})(["width:100vw;height:100vh;background-color:#ffffff;"]);
 var HeaderBox = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
   displayName: "pages__HeaderBox",
   componentId: "lo9ks6-1"
-})(["position:relative;width:100vw;height:52px;box-shadow:0 1px 2px 0 rgba(0,0,0,0.16);background-color:#ffffff;"]);
+})(["position:absolute;top:0px;width:100%;height:52px;box-shadow:0 1px 2px 0 rgba(0,0,0,0.16);background-color:#ffffff;"]);
 var Slogan = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
   displayName: "pages__Slogan",
   componentId: "lo9ks6-2"
-})(["position:absolute;display:block;top:17px;left:50%;transform:translate(-50%,0%);width:100px;height:19px;font-family:NotoSansCJKKR;font-size:16px;font-weight:normal;font-stretch:normal;font-style:normal;line-height:0.75;letter-spacing:normal;text-align:center;color:#2b2d30;"]);
+})(["position:absolute;top:17px;left:50%;transform:translate(-50%,0%);width:100px;height:19px;font-family:NotoSansCJKKR;font-size:16px;font-weight:normal;font-stretch:normal;font-style:normal;line-height:0.75;letter-spacing:normal;text-align:center;color:#2b2d30;"]);
 var Professional_chef = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].img.withConfig({
   displayName: "pages__Professional_chef",
   componentId: "lo9ks6-3"
-})(["display:block;width:100vw;height:auto;object-fit:contain;"]);
+})(["display:block;width:100%;height:auto;object-fit:contain;"]);
 var ContentTitle = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
   displayName: "pages__ContentTitle",
   componentId: "lo9ks6-4"
@@ -4336,6 +4468,26 @@ var ContentSubtitle = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].
   displayName: "pages__ContentSubtitle",
   componentId: "lo9ks6-5"
 })(["position:relative;top:46px;left:50%;transform:translate(-50%,0%);width:200px;height:15px;font-family:NotoSansCJKKR;font-size:12px;font-weight:normal;font-stretch:normal;font-style:normal;line-height:1.17;letter-spacing:normal;text-align:center;color:#003a2b;"]);
+var CheckBoxContainer = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
+  displayName: "pages__CheckBoxContainer",
+  componentId: "lo9ks6-6"
+})(["position:relative;left:50%;top:100px;transform:translate(-50%,0%);"]);
+var CheckBox = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].input.withConfig({
+  displayName: "pages__CheckBox",
+  componentId: "lo9ks6-7"
+})(["display:none;"]);
+var Label = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].label.withConfig({
+  displayName: "pages__Label",
+  componentId: "lo9ks6-8"
+})(["padding-left:25px;cursor:pointer;&::before{content:\"\";width:24px;height:24px;margin-right:10px;position:absolute;left:0;border-radius:2px;background-color:#0d6412;}"]);
+var NavBar = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
+  displayName: "pages__NavBar",
+  componentId: "lo9ks6-9"
+})(["position:absolute;bottom:0px;width:100vw;height:66px;background-color:#0d6412;"]);
+var NavSlogan = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
+  displayName: "pages__NavSlogan",
+  componentId: "lo9ks6-10"
+})(["position:absolute;top:24px;left:50%;transform:translate(-50%,0%);width:100px;height:24px;font-family:NotoSansCJKKR;font-size:20px;font-weight:bold;font-stretch:normal;font-style:normal;line-height:1.2;letter-spacing:normal;text-align:center;color:#ffffff;"]);
 
 /***/ }),
 
