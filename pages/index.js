@@ -13,7 +13,6 @@ const Index = () => {
         <BackGround>
             <HeaderBox>
                 <Slogan>회원가입</Slogan>
-                {/* X 표시 */}
             </HeaderBox>
             <Professional_chef src="/static/professional_chef.png" srcSet="/static/professional_chef@2x.png 2x,/static/professional_chef@3x.png 3x" />
 
